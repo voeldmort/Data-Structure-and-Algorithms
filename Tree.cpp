@@ -127,7 +127,6 @@ int main(){
     TreeNode *root=takeInputLevelWise();
     displaylevelwise(root);
     // insert();
-    // insertLevelWise();
     int numOfNodes=numNodes(root);
     cout<<"Number of nodes are "<<numOfNodes;
     cout<<"The height of the tree is "<< getHeight(root);
